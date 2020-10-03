@@ -1,0 +1,21 @@
+[package]
+name = "ppa"
+version = "0.1.0"
+authors = ["Celeo <mattboulanger@fastmail.com>"]
+edition = "2018"
+description = "Password Protection App"
+readme = "README.md"
+homepage = "https://github.com/celeo/ppa"
+repository = "https://github.com/celeo/ppa"
+license = "MIT OR Apache-2.0"
+exclude = [
+  ".github"
+]
+keywords = []
+categories = [
+  "command-line-utilities",
+]
+
+[dependencies]
+serde = { version = "1.0.116", features = ["derive"] }
+serde_json = "1.0.58"
