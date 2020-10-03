@@ -17,5 +17,11 @@ categories = [
 ]
 
 [dependencies]
+aes-gcm = "0.7.0"
+anyhow = "1.0.32"
+fern = { version = "0.6.0", features = ["colored"] }
+home = "0.5.3"
+log = "0.4.11"
 serde = { version = "1.0.116", features = ["derive"] }
 serde_json = "1.0.58"
+structopt = "0.3.18"
