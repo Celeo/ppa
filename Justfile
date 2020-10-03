@@ -1,4 +1,4 @@
-default: check
+default: build
 
 check:
 	@cargo check
