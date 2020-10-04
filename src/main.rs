@@ -118,7 +118,7 @@ fn main() {
             }
         }
         let encryption_password = prompt_password(true, true);
-        match util::write_store(&vec![], &encryption_password) {
+        match util::write_store(&[], &encryption_password) {
             Ok(()) => info!("Store created"),
             Err(e) => {
                 error!("Could not create store: {}", e);
